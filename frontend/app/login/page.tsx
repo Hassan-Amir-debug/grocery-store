@@ -17,8 +17,7 @@ export default function LoginPage() {
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:3000/auth/login', {
-        method: 'POST',
+const response = await fetch('https://grocerystore-6twdsuxs.back4.app/auth/login', {        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },

@@ -17,8 +17,7 @@ export default function SignupPage() {
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:3000/auth/register', {
-        method: 'POST',
+const response = await fetch('https://grocerystore-6twdsuxs.back4.app/auth/register', {        method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, phone, password }),
       });
