@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# NestJS
+dist/
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+# Generated Prisma client
+backend/src/generated/prisma/
+
+# Product backup files
+frontend/public/products.backup.json
+frontend/public/products.large-backup.json
