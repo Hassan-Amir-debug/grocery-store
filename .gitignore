@@ -38,3 +38,4 @@ backend/src/generated/prisma/
 # Product backup files
 frontend/public/products.backup.json
 frontend/public/products.large-backup.json
+data/BigBasket.csv
